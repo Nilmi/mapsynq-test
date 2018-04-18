@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="24.858868">
+<testcase classname="Login in using username and password" name="Sign in using valid username and password" time="10.245435">
+<system-out><![CDATA[Given User already navigated to url in mobile browser.......................passed
+When User clicks on Login button............................................passed
+Then Directs user to Login page.............................................passed
+Then User enters valid "wijerathna.nilmi@gmail.com" and "test321" click on login button.passed
+Then User login successfully................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="View incident location" name="Select an incident and view incident location on map" time="6.355876">
+<system-out><![CDATA[Given User already navigated to url in mobile browser.......................passed
+When User clicks on traffic road conditions button..........................passed
+Then Directs user to traffic road conditions page...........................passed
+Then User select an incident................................................passed
+Then Display incident location on map.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="View live traffic camera image" name="Select a traffic camera and view live image" time="8.257557">
+<system-out><![CDATA[Given User already navigated to url in mobile browser.......................passed
+When User clicks on traffic camera button...................................passed
+Then Directs user to traffic cameras page...................................passed
+Then User clicks on a traffic camera........................................passed
+Then Systems displays live image............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

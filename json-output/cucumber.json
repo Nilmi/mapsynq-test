@@ -1,0 +1,340 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5610691446,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Sign in using valid username and password",
+        "description": "",
+        "id": "login-in-using-username-and-password;sign-in-using-valid-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 109123962,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefinitions.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5250125,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User already navigated to url in mobile browser",
+            "match": {
+              "location": "CommonStepDefinitions.user_already_navigated_to_url_in_mobile_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91111280,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8734130,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Directs user to Login page",
+            "match": {
+              "location": "LoginStepDefinition.directs_user_to_Login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4401951995,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters valid \"wijerathna.nilmi@gmail.com\" and \"test321\" click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wijerathna.nilmi@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "test321",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_valid_and_click_on_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18572302,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User login successfully",
+            "match": {
+              "location": "LoginStepDefinition.user_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login in using username and password",
+    "description": "",
+    "id": "login-in-using-username-and-password",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5370471073,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Select an incident and view incident location on map",
+        "description": "",
+        "id": "view-incident-location;select-an-incident-and-view-incident-location-on-map",
+        "after": [
+          {
+            "result": {
+              "duration": 106676742,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefinitions.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4757253,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User already navigated to url in mobile browser",
+            "match": {
+              "location": "CommonStepDefinitions.user_already_navigated_to_url_in_mobile_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117745600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on traffic road conditions button",
+            "match": {
+              "location": "ViewIncidentStepDefinition.user_clicks_on_traffic_road_conditions_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19093461,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Directs user to traffic road conditions page",
+            "match": {
+              "location": "ViewIncidentStepDefinition.directs_user_to_traffic_road_conditions_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153795361,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User select an incident",
+            "match": {
+              "location": "ViewIncidentStepDefinition.user_select_an_incident()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 583336963,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Display incident location on map",
+            "match": {
+              "location": "ViewIncidentStepDefinition.display_incident_location_on_map()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "View incident location",
+    "description": "",
+    "id": "view-incident-location",
+    "keyword": "Feature",
+    "uri": "ViewIncidentLocation.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6803375826,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Select a traffic camera and view live image",
+        "description": "",
+        "id": "view-live-traffic-camera-image;select-a-traffic-camera-and-view-live-image",
+        "after": [
+          {
+            "result": {
+              "duration": 112117172,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefinitions.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3637721,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User already navigated to url in mobile browser",
+            "match": {
+              "location": "CommonStepDefinitions.user_already_navigated_to_url_in_mobile_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166716254,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on traffic camera button",
+            "match": {
+              "location": "LiveTrafficCameraStepDefinition.user_clicks_on_traffic_camera_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8476370,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Directs user to traffic cameras page",
+            "match": {
+              "location": "LiveTrafficCameraStepDefinition.directs_user_to_traffic_cameras_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 358326573,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on a traffic camera",
+            "match": {
+              "location": "LiveTrafficCameraStepDefinition.user_clicks_on_a_traffic_camera()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 804907482,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Systems displays live image",
+            "match": {
+              "location": "LiveTrafficCameraStepDefinition.systems_displays_live_image()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "View live traffic camera image",
+    "description": "",
+    "id": "view-live-traffic-camera-image",
+    "keyword": "Feature",
+    "uri": "ViewLiveTrafficCamera.feature"
+  }
+]
