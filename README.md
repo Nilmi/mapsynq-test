@@ -79,3 +79,6 @@ Test cases were selected automate after considering their importance.
 | Sign in using username and password of an existing user | Need to verify whether existing users can successfully sign in using their username and password. | Used an existing user&#39;s username and password to sign in. |
 | View incident details on map | Need to verify whether details of selected incident displayed on incident page. | List of incidents are displayed in incidents page.First incident from the list will be selected during the test.Incident details are verified against the incident details displayed in incidents list. |
 | View live camera image | Need to verify whether live images of selected camera displayed on camera page. | Camera name to be used in test is configurable in configuration file. List of cameras are displayed in cameras page.Camera name specified in configuration file will be selected from camera list during the test.Camera name is verified against the camera page name.Test also verifies whether latest image from camera displayed. |
+
+
+The end
